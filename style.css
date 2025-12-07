@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5eee6; /* light creamy background */
+    color: #3b2f2f; /* deep coffee text */
+}
+
+/* Coffee Color Palette */
+:root {
+    --coffee-dark: #4b2e18;
+    --coffee-main: #6f4e37;
+    --coffee-light: #c8b09a;
+    --coffee-cream: #f5eee6;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* Hero Section */
+h1.display-5 {
+    font-size: 3rem;
+    color: var(--coffee-dark);
+}
+
+p.lead {
+    font-size: 1.25rem;
+    color: #4b3a3a;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--coffee-main) !important;
+    border-color: var(--coffee-main) !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--coffee-dark) !important;
+    border-color: var(--coffee-dark) !important;
+    color: #fff !important;
+}
+
+.btn-outline-secondary {
+    color: var(--coffee-main) !important;
+    border-color: var(--coffee-main) !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--coffee-main) !important;
+    color: #fff !important;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+    background-color: var(--coffee-cream) !important;
+}
+
+/* General Container Spacing */
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: transparent;
+}
+
+.card {
+    background-color: #fff8f1;
+    border: 1px solid var(--coffee-light);
+    border-radius: 10px;
+}
+.card-title {
+    color: var(--coffee-main);
+}
+.card-subtitle {
+    color: var(--coffee-dark);
+}
+
+img {
+    border-radius: 6px;
+}
+/* Social Media Icons */
+.bi {
+    color: var(--coffee-main) !important;
+    transition: 0.3s ease;
+}
+
+.bi:hover {
+    color: var(--coffee-dark) !important;
+    transform: scale(1.1);
+}
+
+/* Homepage Background */
+.homepage {
+    background-color: var(--coffee-light);
+    background-image: linear-gradient(to bottom, var(--coffee-light), var(--coffee-cream));
+}
+
+/* Custom Brown Button */
+.btn-brown {
+    background-color: var(--coffee-main);
+    color: #fff;
+    border: 2px solid var(--coffee-dark);
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-brown:hover {
+    background-color: var(--coffee-dark);
+    color: #fff;
+    transform: scale(1.05);
+}

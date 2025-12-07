@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>Menu</title>
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: var(--coffee-cream) !important;">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/Fego-logo1.png" alt="Fego Caffé Logo" width="120" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample09">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+            <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+              <li><a class="dropdown-item" href="Breakfast.html">Breakfast</a></li>
+              <li><a class="dropdown-item" href="Lunch.html">Lunch</a></li>
+              <li><a class="dropdown-item" href="Drinks.html">Drinks</a></li>
+              <li><a class="dropdown-item" href="Dessert.html">Desserts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.tripadvisor.co.za/Search?q=Fego+Caffe&geo=312578&ssrc=a&searchNearby=false&searchSessionId=0001ea0b076206e9.ssid&offset=0">Locations</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="https://fegocaffe.co.za/delivery/">Delivery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navbar Section -->
+
+  <!-- Menu Cards Section -->
+  <div class="container my-5">
+    <h1 class="mb-4 text-center" style="color: var(--coffee-dark);">Our Menu</h1>
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <a href="Breakfast.html" class="text-decoration-none">
+          <div class="card">
+            <img src="images/breakfast.jpg" class="card-img-top" alt="Breakfast">
+            <div class="card-body">
+              <h5 class="card-title text-center menu-title">Breakfast</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="Lunch.html" class="text-decoration-none">
+          <div class="card">
+            <img src="images/lunch.jpg" class="card-img-top" alt="Lunch">
+            <div class="card-body">
+              <h5 class="card-title text-center menu-title">Lunch</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="Drinks.html" class="text-decoration-none">
+          <div class="card">
+            <img src="images/Coffee.jpg" class="card-img-top" alt="Drinks">
+            <div class="card-body">
+              <h5 class="card-title text-center menu-title">Drinks</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="Desserts.html" class="text-decoration-none">
+          <div class="card">
+            <img src="images/desserts.jpg" class="card-img-top" alt="Desserts">
+            <div class="card-body">
+              <h5 class="card-title text-center menu-title">Desserts</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="footer text-white btn-brown text-center py-3">
+    <p class="mb-0 btn-brown">View our full menu below</p><br>
+    <a href="File/485c7cd3-07cf-439a-b32c-0f524569574b.pdf" class="btn btn btn-brown">Full Menu</a>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
